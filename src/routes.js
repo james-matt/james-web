@@ -13,15 +13,15 @@ class Routes extends React.Component {
         return (
             <div>
                 <Switch>
-                    <Route exact path="/Home" component={Home} />
+                    <Route exact path="/home" component={Home} />
                     <Route exact path="/">
-                        <Redirect to="/Home" />
+                        <Redirect to="/home" />
                     </Route>
-                    <Route exact path="/Clients" component={Clients} />
-                    <Route exact path="/Projects" component={Projects} />
-                    <Route exact path="/Services" component={Services} />
-                    <Route exact path="/About" component={About} />
-                    <Route exact path="/Contact" component={Contact} />
+                    <Route exact path="/clients" component={Clients} />
+                    <Route exact path="/projects" component={Projects} />
+                    <Route exact path="/services" component={Services} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/contact" component={Contact} />
                     <Route component={NoMatch} />
                 </Switch>
             </div>
