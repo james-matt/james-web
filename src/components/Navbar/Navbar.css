@@ -1,0 +1,16 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    list-style: none;
+}
+
+.navbar-list-items {
+
+}
