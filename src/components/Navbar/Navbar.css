@@ -1,16 +1,38 @@
 .navbar-container {
     display: flex;
-    justify-content: center;
-    background-color: blue;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
 }
 
 .navbar-list {
-    display: flex;
-    justify-content: flex-end;
-    background-color: blueviolet;
     list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex: 1;
 }
 
-.navbar-list-items {
+.nav-pages {
+    margin-left: auto;
+}
 
+.navbar-list li a {
+    text-decoration: none;
+}
+
+.navbar-list li {
+    padding: 20px;
+}
+
+.navbar-list li a:active {
+    color: black;
+}
+
+.navbar-list li a:visited {
+    color: black;
 }
