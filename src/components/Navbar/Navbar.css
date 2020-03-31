@@ -23,6 +23,7 @@
 
 .navbar-list li a {
     text-decoration: none;
+    color: black;
 }
 
 .navbar-list li {

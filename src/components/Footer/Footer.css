@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.social {
+    margin-top: 20px;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.social a {
+    padding: 0 20px
+}
+
+.direct-contact {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

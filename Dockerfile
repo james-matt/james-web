@@ -8,5 +8,3 @@ RUN apt-get update
 RUN apt-get install -y yarn
 COPY . /code
 WORKDIR /code
-
-CMD yarn start
