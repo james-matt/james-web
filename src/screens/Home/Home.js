@@ -1,5 +1,6 @@
 import React from 'react'
 import Flicking from '@egjs/react-flicking';
+import Social from '../../components/Social/Social'
 import './Home.css'
 
 class Home extends React.Component {
@@ -14,6 +15,7 @@ class Home extends React.Component {
                 <div className='home-title'>
                     <h1>I build websites, mobile apps, and cloud solutions.</h1>
                 </div>
+                <Social />
             </div>
         )
     }

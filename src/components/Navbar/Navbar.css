@@ -1,8 +1,7 @@
 .navbar-container {
     display: flex;
-    border-color: black;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
+    background-color: black;
+    color: white;
 }
 
 .nav {
@@ -23,7 +22,7 @@
 
 .navbar-list li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navbar-list li {
@@ -31,9 +30,9 @@
 }
 
 .navbar-list li a:active {
-    color: black;
+    color: white;
 }
 
 .navbar-list li a:visited {
-    color: black;
+    color: white;
 }
