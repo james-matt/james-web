@@ -1,0 +1,29 @@
+.websites-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.websites-container h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.websites-container p {
+    font-size: 16px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 500px;
+    padding: 20px;
+}
+
+.project-text {
+    padding-bottom: 20px;
+}
