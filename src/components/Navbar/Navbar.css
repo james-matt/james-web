@@ -1,38 +1,35 @@
-.navbar-container {
+nav {
     display: flex;
+    flex: 1;
     background-color: black;
     color: white;
 }
 
-.nav {
+nav ul {
     display: flex;
     flex: 1;
-}
-
-.navbar-list {
     list-style: none;
     padding-left: 0;
-    display: flex;
-    flex: 1;
+    justify-content: space-between;
 }
 
-.nav-pages {
-    margin-left: auto;
+nav ul li {
+    padding: 20px 0;
 }
 
-.navbar-list li a {
+nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-.navbar-list li {
-    padding: 20px;
-}
-
-.navbar-list li a:active {
+nav ul li a:active {
     color: white;
 }
 
-.navbar-list li a:visited {
+nav ul li a:visited {
     color: white;
+}
+
+.nav-pages {
+    margin-left: auto;
 }

@@ -10,19 +10,17 @@ import Contact from './screens/Contact/Contact'
 class Routes extends React.Component {
     render () {
         return (
-            <div>
-                <Switch>
-                    <Route exact path="/home" component={Home} />
-                    <Route exact path="/">
-                        <Redirect to="/home" />
-                    </Route>
-                    <Route exact path="/websites" component={Websites} />  
-                    <Route exact path="/mobile" component={Mobile} /> 
-                    <Route exact path="/cloud" component={Cloud} />
-                    <Route exact path="/contact" component={Contact} />             
-                    <Route component={NoMatch} />
-                </Switch>
-            </div>
+            <Switch>
+                <Route exact path="/home" component={Home} />
+                <Route exact path="/">
+                    <Redirect to="/home" />
+                </Route>
+                <Route exact path="/websites" component={Websites} />  
+                <Route exact path="/mobile" component={Mobile} /> 
+                <Route exact path="/cloud" component={Cloud} />
+                <Route exact path="/contact" component={Contact} />             
+                <Route component={NoMatch} />
+            </Switch>
         )
     }
 }
