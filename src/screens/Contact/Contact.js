@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
 import Social from '../../components/Social/Social'
+import Wave from '../../assets/images/wavey/wavey.png'
 import './Contact.css'
 
 class Contact extends React.Component {
     render () {
         return (
             <div>
-                <Header heading="Contact" image="http://via.placeholder.com/2000x600" />
+                <Header heading="Contact" image={Wave} />
                 <div className="contact-text-container">
                     <div>
                         <h2>But how do I contact you?</h2>
