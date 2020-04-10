@@ -1,8 +1,15 @@
-footer {
-    display: flex;
-    flex: 1;
-    background-color: black;
+footer a {
     color: white;
-    padding: 20px 0px;
-    justify-content: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:active {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
 }

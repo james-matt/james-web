@@ -6,13 +6,13 @@ import './Home.css'
 class Home extends React.Component {
     render () {
         return (
-            <div className='home-container'>
-                <div style={{display: 'flex', flex: '1'}}>
-                    <img alt='placeholder-1' src={Wave} style={{ height: '100%', width: '100%' }}/>
-                </div>
-                <div className='home-title'>
+            <div>
+                <section>
+                    <img alt='placeholder-1' src={Wave} style={{ width: '100%' }}/>
+                </section>
+                <section className="secondary-bg padding-lg center">
                     <h1>I build websites, mobile apps, and cloud solutions.</h1>
-                </div>
+                </section>
                 <Social />
             </div>
         )

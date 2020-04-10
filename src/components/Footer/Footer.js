@@ -1,12 +1,16 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 class Footer extends React.Component {
     render () {
         return (
-            <footer>
-                <p>For more information email james.taggart.43@gmail.com.</p>
-            </footer>
+            <section>
+                <footer class="padding-lg primary-bg container space-between align-items-center font-sm">
+                    <Link to='/contact'>How do we get in contact?</Link>
+                    <p>&copy; 2020 James Taggart</p>
+                </footer>
+            </section>
         )
     }
 }
