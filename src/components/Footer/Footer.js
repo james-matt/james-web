@@ -6,7 +6,7 @@ class Footer extends React.Component {
     render () {
         return (
             <section>
-                <footer class="padding-lg primary-bg container space-between align-items-center font-sm">
+                <footer className="padding-lg primary-bg container space-between align-items-center font-sm">
                     <Link to='/contact'>How do we get in contact?</Link>
                     <p>&copy; 2020 James Taggart</p>
                 </footer>
