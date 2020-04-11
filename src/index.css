@@ -36,6 +36,12 @@ ul {
   flex: 1;
 }
 
+.container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .primary-bg {
   background-color: black;
   color: white;
