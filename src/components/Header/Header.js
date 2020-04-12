@@ -3,13 +3,10 @@ import './Header.css'
 
 class Header extends React.Component {
     render () {
-        const styles = {
-            backgroundImage: `url(${this.props.image})`,
-            height: 600
-        }
         return (
-            <header style={styles} className="container-wrap">
-                <div className="text-container">
+            <header className="container-wrap">
+                <img alt='placeholder' src={this.props.image} style={{ width: '100%' }} />
+                <div className="text-container primary-bg">
                     <h1>{this.props.heading}</h1>
                 </div>
             </header>

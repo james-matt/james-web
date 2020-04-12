@@ -47,6 +47,18 @@ ul {
   color: white;
 }
 
+.primary-bg a {
+  color: white;
+}
+
+nav ul li a:active {
+  color: white;
+}
+
+nav ul li a:visited {
+  color: white;
+}
+
 .secondary-bg {
   background-color: lightgrey;
   color: black;
