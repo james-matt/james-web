@@ -12,7 +12,7 @@ class Contact extends React.Component {
                 <section className="secondary-bg padding-lg center">
                     <div className="cols">
                         <h2>How do we get in contact?</h2>
-                        <p>Email <a href="mailto:james.taggart.43@gmail.com">james.taggart.43@gmail.com</a> or reach out to me on one of the platforms below.</p>
+                        <p>Email me! <a href="mailto:james.taggart.43@gmail.com">james.taggart.43@gmail.com</a> or reach out to me on one of the platforms below.</p>
                     </div>
                 </section>
                <Social />
