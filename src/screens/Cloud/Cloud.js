@@ -4,6 +4,8 @@ import Icons from '../../components/Icons/Icons'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
 import Wave from '../../assets/images/wavey/wavey_4.svg'
+import MyForte from '../../assets/images/mobile/myforte1.png'
+import Kickstart from '../../assets/images/websites/kickstartkids.png'
 
 class Cloud extends React.Component {
     render () {
@@ -16,8 +18,8 @@ class Cloud extends React.Component {
                     <p>PubNub</p>
                 </Icons>
                 <Projects>
-                    <Project image="http://via.placeholder.com/500x300" heading="Kickstart Kids" description="Website with multiple environments, web servers, and storage." />
-                    <Project image="http://via.placeholder.com/500x300" heading="Sponge" description="App with multiple databases and pub &frasl; sub chat functionality." />
+                    <Project image={Kickstart} heading="Kickstart Kids" description="Website with multiple environments, web servers, and storage." />
+                    <Project image={MyForte} heading="Sponge" description="App with multiple databases and pub &frasl; sub chat functionality." />
                 </Projects>
             </div>
         )

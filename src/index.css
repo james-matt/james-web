@@ -81,6 +81,18 @@ nav ul li a:visited {
   padding: 5px;
 }
 
+.padding-bottom-lg {
+  padding-bottom: 20px;
+}
+
+.padding-bottom-md {
+  padding-bottom: 10px;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 5px;
+}
+
 .center {
   justify-content: center;
 }

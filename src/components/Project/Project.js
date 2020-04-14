@@ -4,8 +4,8 @@ import './Project.css'
 class Project extends React.Component {
     render () {
         return (
-            <div className="container-wrap">
-                <div>
+            <div className="container-wrap padding-bottom-md">
+                <div className="padding-bottom-sm">
                     <h2>{this.props.heading}</h2>
                     <p>{this.props.description}</p>
                 </div>

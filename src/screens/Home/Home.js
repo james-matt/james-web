@@ -1,5 +1,6 @@
 import React from 'react'
-import Social from '../../components/Social/Social'
+import PagePreviews from '../../components/PagePreviews/PagePreviews'
+import PagePreview from '../../components/PagePreview/PagePreview'
 import Header from '../../components/Header/Header'
 import Wave from '../../assets/images/wavey/wavey_1.svg'
 import './Home.css'
@@ -12,7 +13,11 @@ class Home extends React.Component {
                 <section className="padding-lg center secondary-bg">
                     <h2>I build websites, mobile apps, and cloud solutions.</h2>
                 </section>
-                <Social />
+                <PagePreviews>
+                    <PagePreview title="Websites" description="View website collaborations." />
+                    <PagePreview title="Mobile" description="View app contributions." />
+                    <PagePreview title="Cloud" description="View architected cloud solutions." />
+                </PagePreviews>
             </div>
         )
     }
