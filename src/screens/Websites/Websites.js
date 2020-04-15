@@ -4,8 +4,8 @@ import Icons from '../../components/Icons/Icons'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
 import Wave from '../../assets/images/wavey/wavey_2.svg'
-import Kickstart from '../../assets/images/websites/kickstartkids.png'
-import PatientCare from '../../assets/images/websites/patientcare.png'
+import Kickstart1 from '../../assets/images/websites/kickstart/kickstart.png'
+import PatientCare1 from '../../assets/images/websites/utsw/utsw.png'
 import './Websites.css'
 
 
@@ -22,8 +22,8 @@ class Websites extends React.Component {
                     <p>React</p>
                 </Icons>
                 <Projects>
-                    <Project image={PatientCare} heading="Patient Care" description="Helps patients find doctors that can treat their conditions." />
-                    <Project image={Kickstart} heading="Kickstart Kids" description="Marketing website for a orgainization that teaches kids karate." />
+                    <Project image={PatientCare1} heading="Patient Care" description="Helps patients find doctors that can treat their conditions." />
+                    <Project image={Kickstart1} heading="Kickstart Kids" description="Marketing website for a orgainization that teaches kids karate." />
                 </Projects> 
 
             </div>

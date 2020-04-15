@@ -4,8 +4,8 @@ import Icons from '../../components/Icons/Icons'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
 import Wave from '../../assets/images/wavey/wavey_4.svg'
-import MyForte from '../../assets/images/mobile/myforte1.png'
-import Kickstart from '../../assets/images/websites/kickstartkids.png'
+import MyForte from '../../assets/images/mobile/myforte/myforte.png'
+import Kickstart from '../../assets/images/websites/kickstart/kickstart.png'
 
 class Cloud extends React.Component {
     render () {

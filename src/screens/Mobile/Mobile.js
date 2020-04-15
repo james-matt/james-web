@@ -4,8 +4,9 @@ import Icons from '../../components/Icons/Icons'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
 import Wave from '../../assets/images/wavey/wavey_3.svg'
-import MyForte from '../../assets/images/mobile/myforte1.png'
-import Sponge from '../../assets/images/mobile/sponge1.png'
+import Sponge1 from '../../assets/images/mobile/sponge/sponge.png'
+import MyForte1 from '../../assets/images/mobile/myforte/myforte.png'
+
 
 
 class Mobile extends React.Component {
@@ -18,8 +19,8 @@ class Mobile extends React.Component {
                     <p>React Native</p>
                 </Icons>
                 <Projects>
-                    <Project image={Sponge} heading="Sponge" description="Social media app to be release on iOS and Android." />
-                    <Project image={MyForte} heading="myForte" description="Skin care app for Epiduo Forte on iOS and Android." />
+                    <Project image={Sponge1} heading="Sponge" description="Social media app to be release on iOS and Android." />
+                    <Project image={MyForte1} heading="myForte" description="Skin care app for Epiduo Forte on iOS and Android." />
                 </Projects>
 
             </div>
