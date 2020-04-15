@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
-import Icons from '../../components/Icons/Icons'
+import Heading from '../../components/Heading/Heading'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
 import Wave from '../../assets/images/wavey/wavey_4.svg'
@@ -12,11 +12,7 @@ class Cloud extends React.Component {
         return (
             <div className="container-wrap">
                 <Header heading="Cloud" image={Wave} />
-                <Icons>
-                    <p>AWS</p>
-                    <p>Heroku</p>
-                    <p>PubNub</p>
-                </Icons>
+                <Heading heading="Cloud solutions that are reliable, flexible, and scale." />
                 <Projects>
                     <Project image={Kickstart} heading="Kickstart Kids" description="Website with multiple environments, web servers, and storage." />
                     <Project image={MyForte} heading="Sponge" description="App with multiple databases and pub &frasl; sub chat functionality." />

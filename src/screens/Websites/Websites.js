@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+import Heading from '../../components/Heading/Heading'
 import Icons from '../../components/Icons/Icons'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
@@ -14,13 +15,7 @@ class Websites extends React.Component {
         return (
             <div className="container-wrap">
                 <Header heading='Websites' image={Wave} />
-                <Icons>
-                    <p>Python</p>
-                    <p>Django</p>
-                    <p>Wagtail</p>
-                    <p>JavaScript</p>
-                    <p>React</p>
-                </Icons>
+                <Heading heading='Modern responsive websites that work on any device.' />
                 <Projects>
                     <Project image={PatientCare1} heading="Patient Care" description="Helps patients find doctors that can treat their conditions." />
                     <Project image={Kickstart1} heading="Kickstart Kids" description="Marketing website for a orgainization that teaches kids karate." />
