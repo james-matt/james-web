@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
 import Heading from '../../components/Heading/Heading'
-import Icons from '../../components/Icons/Icons'
 import Projects from '../../components/Projects/Projects'
 import Project from '../../components/Project/Project'
 import Wave from '../../assets/images/wavey/wavey_2.svg'
