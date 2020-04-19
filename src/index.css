@@ -120,3 +120,12 @@ nav ul li a:visited {
 .font-sm {
   font-size: 12px;
 }
+
+.btn {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}

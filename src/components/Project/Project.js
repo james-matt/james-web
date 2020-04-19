@@ -12,6 +12,10 @@ class Project extends React.Component {
                     <h2>{this.props.heading}</h2>
                     <p>{this.props.description}</p>
                 </div>
+                <div className="container-wrap padding-bottom-sm">
+                    { this.props.released === undefined && <a className="btn" href={this.props.link} target="__blank">View {this.props.heading}</a>}
+                    { this.props.released === false && <p>Not yet released.</p>}
+                </div>
             </div>
         )
     }

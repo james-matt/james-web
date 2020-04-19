@@ -7,7 +7,7 @@ import './Social.css'
 class Social extends React.Component {
     render () {
         return (
-            <section className="container secondary-bg padding-lg space-evenly social">
+            <section className="container ternary-bg space-between social">
                 <a href='https://www.linkedin.com/in/james-taggart/'><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href='https://github.com/james-matt'><FontAwesomeIcon icon={faGithubSquare}/></a>
                 <a href='mailto:james.taggart.43@gmail.com'><FontAwesomeIcon icon={faEnvelopeSquare}/></a>
