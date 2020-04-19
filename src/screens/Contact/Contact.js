@@ -9,13 +9,13 @@ class Contact extends React.Component {
         return (
             <div className="container-wrap">
                 <Header heading="Contact" image={Wave} />
-                <section className="secondary-bg padding-lg center">
+                <Social />
+                <section className="ternary-bg padding-lg">
                     <div className="cols">
                         <h2>How do we get in contact?</h2>
-                        <p>Email me! <a href="mailto:james.taggart.43@gmail.com">james.taggart.43@gmail.com</a> or reach out to me on one of the platforms below.</p>
+                        <p>Email me! <a href="mailto:james.taggart.43@gmail.com">james.taggart.43@gmail.com</a> or reach out to me on one of the platforms in the links above.</p>
                     </div>
                 </section>
-               <Social />
             </div>
         )
     }
