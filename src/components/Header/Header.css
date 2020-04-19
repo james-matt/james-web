@@ -15,3 +15,14 @@
     border-color: white;
     border-width: 5px;
 }
+
+.header-image {
+    width: 100%;
+}
+
+@media only screen and (min-width: 961px) {
+    .header-image {
+        height: 550px;
+        object-fit: cover;
+    }
+}
