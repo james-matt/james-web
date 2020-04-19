@@ -1,4 +1,18 @@
-.page-preview-container {
-    height: 200px;
-    width: 100%;
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .page-preview-container {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .page-preview-container {
+        max-width: 900px;
+    }
+    .page-preview-image-container {
+        width: 50%;
+    }
+    .page-preview-text-container {
+        width: 50%;
+        padding-top: 20px;
+    }
 }
