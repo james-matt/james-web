@@ -123,9 +123,13 @@ nav ul li a:visited {
 
 .btn {
   padding: 5px;
-  background-color: black;
+  background-color: #f62a2a;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
 }

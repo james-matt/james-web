@@ -1,0 +1,18 @@
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .project-container {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .project-container {
+        max-width: 900px;
+    }
+    .project-image-container {
+        width: 50%;
+    }
+    .project-text-container {
+        width: 50%;
+        padding-top: 20px;
+    }
+}

@@ -14,7 +14,7 @@ class PagePreview extends React.Component {
                         <div className="container-wrap cols">
                             <h2>{this.props.title}</h2>
                             <p className="padding-bottom-md">{this.props.description}</p>
-                            <div>
+                            <div className="container-wrap">
                                 <Link className="btn" to={this.props.link}>View {this.props.title}</Link>
                             </div>
                         </div>
