@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# James' Website
+
+Mission: Market ability to help other people make websites, cloud solutions, and mobile apps.
 
 ## Available Scripts
 

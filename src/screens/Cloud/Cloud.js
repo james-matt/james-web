@@ -14,8 +14,8 @@ class Cloud extends React.Component {
                 <Header heading="Cloud" image={Wave} />
                 <Heading heading="Cloud solutions that are reliable, flexible, and scale." />
                 <Projects>
-                    <Project link="https://www.kickstartkids.org/" image={Kickstart} heading="Kickstart Kids" description="Website with multiple environments, web servers, and storage." />
-                    <Project released={false} image={Sponge} heading="Sponge" description="App with multiple databases and pub &frasl; sub chat functionality." />
+                    <Project link="https://www.kickstartkids.org/" image={Kickstart} heading="Kickstart Kids" description="Cloud based website that markets the organization." />
+                    <Project released={false} image={Sponge} heading="Sponge" description="Social media app that has a cloud based backend." />
                 </Projects>
             </div>
         )

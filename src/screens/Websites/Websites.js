@@ -16,8 +16,8 @@ class Websites extends React.Component {
                 <Header heading='Websites' image={Wave} />
                 <Heading heading='Modern responsive websites that work on any device.' />
                 <Projects>
-                    <Project link="https://www.utswmed.org/" image={PatientCare1} heading="Patient Care" description="Helps patients find doctors that can treat their conditions." />
-                    <Project link="https://www.kickstartkids.org/" image={Kickstart1} heading="Kickstart Kids" description="Marketing website for a orgainization that teaches kids karate." />
+                    <Project link="https://www.utswmed.org/" image={PatientCare1} heading="Patient Care" description="Website that allows doctors to market their skills to patients." />
+                    <Project link="https://www.kickstartkids.org/" image={Kickstart1} heading="Kickstart Kids" description="Website that markets the organization and student portal." />
                 </Projects> 
 
             </div>
