@@ -5,10 +5,10 @@ import './PagePreview.css'
 class PagePreview extends React.Component {
     render () {
         return (
-            <div class="container-wrap center">
+            <div className="container-wrap center">
                 <div className="container-wrap page-preview-container padding-bottom-lg">
                     <div className="container-wrap center page-preview-image-container">
-                        <img alt="placeholder-1" src={this.props.image} style={{ maxHeight: 300, maxWidth: '100%' }} />
+                        <img alt="placeholder-1" src={this.props.image} className="product-image" />
                     </div>
                     <div className="container-wrap center page-preview-text-container">
                         <div className="container-wrap cols">

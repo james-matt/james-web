@@ -10,9 +10,11 @@
     }
     .page-preview-image-container {
         width: 50%;
+        max-width: 400px;
     }
     .page-preview-text-container {
-        width: 50%;
+        display: flex;
+        flex: 1;
         padding-top: 20px;
     }
 }

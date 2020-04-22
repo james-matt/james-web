@@ -16,9 +16,9 @@ class Contact extends React.Component {
                 <section className="ternary-bg padding-lg">
                     <div className="container-wrap padding-bottom-md center">
                         <div className="container-wrap contact-text-container cols">
-                            <h2>Thank you</h2>
-                            <p class="padding-bottom-lg">Thanks for taking the time to look at my website. To get in contact with me use the contact information below or reach out to me on one of the platforms listed.</p>
-                            <h2>Contact</h2>
+                            <h2>Information</h2>
+                            <p class="padding-bottom-lg">To reach me directly use the contact information below or reach out to me on one of the platforms listed.</p>
+                            <h2>Direct Contact</h2>
                             <p class="padding-bottom-lg"><a href="mailto:james.taggart.43@gmail.com">james.taggart.43@gmail.com</a></p>
                             <h2>Platforms</h2>
                             <div className="social">

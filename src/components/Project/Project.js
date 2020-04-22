@@ -7,7 +7,7 @@ class Project extends React.Component {
             <div class="container-wrap center">
                 <div className="container-wrap project-container padding-bottom-lg">
                     <div className="container-wrap center project-image-container">
-                        <img alt="placeholder-1" src={this.props.image} style={{ maxHeight: 300, maxWidth: '100%' }} />
+                        <img alt="placeholder-1" src={this.props.image} className="product-image" />
                     </div>
                     <div className="container-wrap center project-text-container">
                         <div className="container-wrap cols">

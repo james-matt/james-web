@@ -137,3 +137,8 @@ nav ul li a:visited {
 .social {
   font-size: 40px;
 }
+
+.product-image { 
+  width: 100%;
+  height: auto;
+}
