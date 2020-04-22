@@ -4,7 +4,7 @@ import './Project.css'
 class Project extends React.Component {
     render () {
         return (
-            <div class="container-wrap center">
+            <div className="container-wrap center">
                 <div className="container-wrap project-container padding-bottom-lg">
                     <div className="container-wrap center project-image-container">
                         <img alt="placeholder-1" src={this.props.image} className="product-image" />
