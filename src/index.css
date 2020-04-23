@@ -140,8 +140,9 @@ nav ul li a:visited {
 
 .product-image { 
   width: 100%;
-  height: auto;
+  height: 100%;
   min-height: 200px;
+  max-height: 300px;
 }
 
 .header-image {
